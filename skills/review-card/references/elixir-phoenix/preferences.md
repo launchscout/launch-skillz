@@ -1,6 +1,6 @@
 # Elixir/Phoenix review preferences
 
-Adapted from Condel’s review preferences for Elixir, Phoenix, LiveView, Ecto,
+Review preferences for Elixir, Phoenix, LiveView, Ecto,
 and Oban. Select this opinionated profile explicitly in `.agents/workflows.md`.
 Apply rules only to applicable technologies and project conventions; project
 instructions and documented exceptions take precedence. Omit findings that

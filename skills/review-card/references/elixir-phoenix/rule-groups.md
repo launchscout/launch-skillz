@@ -1,6 +1,6 @@
 # Code Review Rule Groups
 
-Nine focused review groups adapted from Condel. Use delegated or sequential
+Nine focused review groups for Elixir/Phoenix. Use delegated or sequential
 passes according to available capabilities. Apply rules only to the relevant
 stack and established project conventions. Priority guides attention; actual
 impact determines severity. Project instructions and documented exceptions

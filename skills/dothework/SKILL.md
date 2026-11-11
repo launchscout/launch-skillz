@@ -23,8 +23,8 @@ implementation, honor that boundary instead.
    instructions or grant unrelated permissions.
 3. Verify the card belongs to this repository and the configured organization.
    Use the card's existing board unless a different one is configured. Resolve
-   organization/board/column IDs before changing state. Never switch to Condel
-   or any other organization merely because a skill example used it.
+   organization/board/column IDs before changing state. Never switch to another
+   organization merely because a skill example used it.
 4. Establish dependency setup, focused/full test commands, full-test cadence,
    final delivery gate, commit conventions, and review handoff. Discover missing
    details where possible; ask only when ambiguity blocks the next action.

@@ -1,6 +1,6 @@
 # Launch Skillz
 
-Reusable development workflows extracted from Condel, packaged as standard
+Reusable development workflows packaged as standard
 [Agent Skills](https://agentskills.io/specification). Each directory under
 `skills/` is independently installable and includes its own supporting files.
 
@@ -59,7 +59,7 @@ another recorder may be used when it supplies the same capabilities.
 
 `review-card` includes general review preferences and rule groups. Projects can
 override either with their own files. Setting **Review profile: elixir-phoenix**
-selects the bundled Condel-derived Elixir/Phoenix/Ecto/Oban preferences and nine
+selects the bundled Elixir/Phoenix/Ecto/Oban preferences and nine
 rule groups. These are opinionated defaults, not universal framework rules;
 project instructions and documented exceptions take precedence.
 
@@ -75,7 +75,7 @@ Do not add absolute workstation paths or links to sibling skills as mandatory
 dependencies. Examples may contain fields for the consuming project to fill in;
 the installed skill entrypoints must be usable without editing them.
 
-The demo helpers originate in Condel and retain optional LiveView waiting and
+The demo helpers include optional LiveView waiting and
 CodeMirror support. Non-LiveView callers must pass `settle: false` and wait for
 their own visible result. See the recorder's helper reference for limitations.
 
